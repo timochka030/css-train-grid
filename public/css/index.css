@@ -1,21 +1,28 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+  width: 70px;
 }
 
 .task3 {
   display: grid;
+  gap: 25px 10px;
 }
 
 .task4 {
   display: grid;
 }
 .task4 .item2 {
+  order: 2;
 }
 .task4 .item4 {
+  order: 1;
 }
 .task4 .item3 {
+  order: 3;
 }
 
 .task5 {
@@ -24,22 +31,27 @@
 
 .task6 {
   display: grid;
+  justify-content: end;
 }
 
 .task7 {
   display: grid;
+  justify-content: center;
 }
 
 .task8 {
   display: grid;
+  justify-content: space-between;
 }
 
 .task9 {
   display: grid;
+  justify-content: space-around;
 }
 
 .task10 {
   display: grid;
+  justify-content: space-evenly;
 }
 
 .task11 {
@@ -48,14 +60,17 @@
 
 .task12 {
   display: grid;
+  align-content: flex-start;
 }
 
 .task13 {
   display: grid;
+  align-content: flex-end;
 }
 
 .task14 {
   display: grid;
+  align-content: center;
 }
 
 .task15 {
@@ -64,30 +79,37 @@
 
 .task16 {
   display: grid;
+  align-content: space-between;
 }
 
 .task17 {
   display: grid;
+  align-content: space-around;
 }
 
 .task18 {
   display: grid;
+  align-content: space-around;
 }
 
 .task19 {
   display: grid;
+  align-content: center;
 }
 
 .task20 {
   display: grid;
+  justify-items: start;
 }
 
 .task21 {
   display: grid;
+  justify-items: end;
 }
 
 .task22 {
   display: grid;
+  justify-items: center;
 }
 
 .task23 {
@@ -96,14 +118,17 @@
 
 .task24 {
   display: grid;
+  align-items: start;
 }
 
 .task25 {
   display: grid;
+  align-items: end;
 }
 
 .task26 {
   display: grid;
+  align-items: center;
 }
 
 .task27 {
@@ -112,136 +137,177 @@
 
 .task28 {
   display: grid;
+  align-items: center;
 }
 
 .task29 {
   display: grid;
+  justify-items: center;
+  align-items: stretch;
 }
 
 .task30 {
   display: grid;
 }
 .task30 .item1 {
+  width: fit-content;
 }
 
 .task31 {
   display: grid;
 }
 .task31 .item2 {
+  justify-self: flex-end;
 }
 
 .task32 {
   display: grid;
 }
 .task32 .item3 {
+  justify-self: center;
 }
 
 .task33 {
   display: grid;
 }
 .task33 .item4 {
+  justify-items: stretch;
 }
 
 .task34 {
   display: grid;
 }
 .task34 .item1 {
+  height: fit-content;
+  align-content: flex-start;
 }
 
 .task35 {
   display: grid;
 }
 .task35 .item2 {
+  height: fit-content;
+  align-self: flex-end;
 }
 
 .task36 {
   display: grid;
 }
 .task36 .item3 {
+  height: fit-content;
+  align-self: center;
 }
 
 .task37 {
   display: grid;
 }
 .task37 .item4 {
+  align-self: stretch;
 }
 
 .task38 {
   display: grid;
 }
 .task38 .item5 {
+  place-self: center flex-start;
 }
 
 .task39 {
   display: grid;
+  grid-template-rows: 1 / 2 / 3;
 }
 
 .task40 {
   display: grid;
+
+  grid-template-columns: 30% 70%;
 }
 
 .task41 {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 110px / 30%);
 }
 
 .task42 {
   display: grid;
+  grid-template-areas:
+    'item1 item2'
+    'item1 item3'
+    'item4 item5'
+    'item4 item6';
 }
 .task42 .item1 {
+  grid-area: item1;
 }
 .task42 .item2 {
+  grid-area: item2;
 }
 .task42 .item3 {
+  grid-area: item3;
 }
 .task42 .item4 {
+  grid-area: item4;
 }
 .task42 .item5 {
+  grid-area: item5;
 }
 .task42 .item6 {
+  grid-area: item6;
 }
 
 .task43 {
   display: grid;
 }
 .task43 .item3 {
+  grid-column: 1 / 3;
 }
 
 .task44 {
   display: grid;
 }
 .task44 .item3 {
+  grid-row: 1/ 3;
 }
 
 .task45 {
   display: grid;
 }
 .task45 .item3 {
+  grid-area: 1/2/3/-3;
 }
 
 .task46 {
   display: grid;
+  grid-auto-columns: min-content max-content;
 }
 
 .task47 {
   display: grid;
+  grid-auto-rows: ;
 }
 
 .task48 {
   display: grid;
+  grid-row: auto;
 }
 
 .task50 {
   display: grid;
+  grid-auto-flow: dense;
 }
 
 .task49 {
   display: grid;
+  grid-auto-flow: column;
 }
 
 .task51 {
   display: grid;
+  grid-template-columns: repeat(6, 107px);
 }
 
 .task52 {
   display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
